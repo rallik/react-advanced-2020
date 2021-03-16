@@ -14,8 +14,8 @@ const UseStateBasics = () => {
   const [text, setText] = useState('random title')
   const handleClick = () => {
     const newtitle = titles[getTitle()];
-    console.log(getTitle())
-    setText(newtitle)
+    console.log(getTitle());
+    setText(newtitle);
   }
   return (
     <React.Fragment>
